@@ -1,3 +1,3 @@
-export * from './regex';
+export * from './words';
 export * from './draftjs';
 export * from './hooks';

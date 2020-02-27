@@ -1,6 +1,6 @@
 import { ComponentType } from 'react';
-import createRegExDecorator from 'draft-js-regex-decorator';
-import { negativeRegex, positiveRegex } from './regex';
+import { createWorldListDecorator } from 'draft-js-regex-decorator';
+import { negativeWords, positiveWords } from './words';
 
 interface SentimentComponents {
   negativeComponent?: ComponentType;
@@ -11,12 +11,12 @@ export function createSentimentDecorators({
   negativeComponent,
   positiveComponent,
 }: SentimentComponents) {
-  const decorators: ReturnType<typeof createRegExDecorator>[] = [];
+  const decorators: ReturnType<typeof createWorldListDecorator>[] = [];
   if (negativeComponent) {
-    decorators.push(createRegExDecorator(negativeRegex, negativeComponent));
+    decorators.push(createWorldListDecorator(negativeWords, negativeComponent));
   }
   if (positiveComponent) {
-    decorators.push(createRegExDecorator(positiveRegex, positiveComponent));
+    decorators.push(createWorldListDecorator(positiveWords, positiveComponent));
   }
   return decorators;
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "afinn-165": "^1.0.4",
-    "draft-js-regex-decorator": "^0.1.1",
+    "draft-js-regex-decorator": "^0.3.0",
     "sentiment": "^5.0.2"
   }
 }
