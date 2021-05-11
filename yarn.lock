@@ -2232,10 +2232,10 @@ domexception@^1.0.1:
   dependencies:
     webidl-conversions "^4.0.2"
 
-draft-js-regex-decorator@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/draft-js-regex-decorator/-/draft-js-regex-decorator-0.1.1.tgz#80015190e0dbba76c89170156c9e022d6abde765"
-  integrity sha512-oZesYb37WH4iOGzYUvPb/I2Y9E/BLGx6N2HujHLqCdFgSIGMqwpC2E22d7b6sg4PnJTCs+QHPO84pcfxi7zH7w==
+draft-js-regex-decorator@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/draft-js-regex-decorator/-/draft-js-regex-decorator-0.3.0.tgz#5c04534fe4376d3e7a4b77492f967478fb8ee1a8"
+  integrity sha512-9mYeDz7K7KZtEb/0WjKnhyFILFFUkZMsljKj7K/zPIFHhXpfOjdQgI2XuppyTQjfjpLccSosYXsIbqG4ywTLvQ==
   dependencies:
     "@testing-library/react" "^9.3.2"
     "@types/draft-js" "^0.10.37"
@@ -3034,9 +3034,9 @@ has@^1.0.3:
     function-bind "^1.1.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
