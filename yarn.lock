@@ -2232,10 +2232,10 @@ domexception@^1.0.1:
   dependencies:
     webidl-conversions "^4.0.2"
 
-draft-js-regex-decorator@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/draft-js-regex-decorator/-/draft-js-regex-decorator-0.1.1.tgz#80015190e0dbba76c89170156c9e022d6abde765"
-  integrity sha512-oZesYb37WH4iOGzYUvPb/I2Y9E/BLGx6N2HujHLqCdFgSIGMqwpC2E22d7b6sg4PnJTCs+QHPO84pcfxi7zH7w==
+draft-js-regex-decorator@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/draft-js-regex-decorator/-/draft-js-regex-decorator-0.3.0.tgz#5c04534fe4376d3e7a4b77492f967478fb8ee1a8"
+  integrity sha512-9mYeDz7K7KZtEb/0WjKnhyFILFFUkZMsljKj7K/zPIFHhXpfOjdQgI2XuppyTQjfjpLccSosYXsIbqG4ywTLvQ==
   dependencies:
     "@testing-library/react" "^9.3.2"
     "@types/draft-js" "^0.10.37"
@@ -5828,9 +5828,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^1.0.3:
   version "1.0.3"
